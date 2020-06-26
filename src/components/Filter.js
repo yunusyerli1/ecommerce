@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
  class Filter extends Component {
     render() {
-        console.log(this.props.sort);
         return (
             <div className="filter">
                 <div className="filter-result">{this.props.count} Products </div>
